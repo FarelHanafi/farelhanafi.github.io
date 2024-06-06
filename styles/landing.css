@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .header {
+    background: url('https://telegra.ph/file/d65df040fcc3a196f8ed0.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header-content h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .header-content p {
+    margin: 20px 0;
+    font-size: 1.2em;
+  }
+  
+  .btn {
+    background: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #ff4c4c;
+  }
+  
+  .about-section, .services-section, .contact-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .service-item {
+    max-width: 30%;
+  }
+  
+  .contact-section form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-section input, .contact-section textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .contact-section button {
+    background: #ff6b6b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact-section button:hover {
+    background: #ff4c4c;
+  }
+  
+  .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
